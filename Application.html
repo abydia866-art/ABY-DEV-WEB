@@ -1,0 +1,54 @@
+  <!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini Boutique E-commerce</title>
+<link rel="stylesheet" href="Application.css">
+
+</head>
+
+<body>
+    
+        <!--HEADER-->
+        <header>
+            <h1>Mini Boutique</h1>
+            <div class="cart-info">
+    Panier :
+            <span id="cart-count">0</span> articles
+        </div>
+  </header>
+
+     <main>
+
+        <section class="products-section">
+            <h2>Nos Produits</h2>
+<input type="text" id="searchInput" placeholder="Rechercher un produit">
+
+<select id="categoryFilter">
+    <option value="all">Toutes les catégories</option>
+</select>
+
+<div id="products" class="products-container">
+
+                <!-- Produits -->
+            </div>
+        </section>
+
+        <section class="cart-section">
+            <h3>Panier</h3>
+
+            <div id="cart-items"></div>
+<h3>Total : <span id="total-price">0</span> €</h3>
+        </section>
+
+    </main>
+
+    <script src="Application.js"></script>
+
+    
+
+ 
+
+</body>
+</html>
