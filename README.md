@@ -24,10 +24,9 @@ Projet réalisé en équipe avec des collaborateurs via GitHub.
 ## Captures d’écran
 
 ### Accueil
-![Accueil](images/Accueil.png)
+![Accueil](images/accueil.png)
 
-### Produits
-![nos roduits](images/nos produits.png)
+
 
 ### Panier
-![Panier](images/Panier.png)
+![Panier](images/panier.png)
