@@ -108,7 +108,6 @@ function updateCart(){
     totalPrice.textContent = total.toFixed(2);
 }
 
-
 // SUPPRIMER
 function removeFromCart(index){
 
