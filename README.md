@@ -17,7 +17,7 @@ Projet de mini site e-commerce réalisé avec HTML, CSS et JavaScript.
 
 ## Auteur
 ABY DEV WEB
-MDL749
+
 
 ##  Collaboration
 Projet réalisé en équipe avec des collaborateurs via GitHub.
@@ -26,6 +26,8 @@ Projet réalisé en équipe avec des collaborateurs via GitHub.
 ### Accueil
 ![Accueil](images/accueil.png)
 
+### Nos produits
+![Nos produits](images/Nos produit.png)
 
 
 ### Panier
