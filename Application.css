@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #f4f4f4;
+    background: #746b6b;/*couleur de fond modifiee*/
     color: #333;
 }
 
@@ -29,7 +29,8 @@ main{
     padding: 12px;
     margin-bottom: 20px;
     border-radius: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #171616;/*couleur de bordure modifiee*/
+    
 }
 .products-section{
     flex: 3;
@@ -38,17 +39,22 @@ main{
 .cart-section{
     flex: 1;
     background: white;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 24px;
+    border-radius: 20px;
     height: fit-content;
 }
-
-.produits-conteneur{
+#products {
+/* ancien code remplace ,car ne marche pas */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
     gap: 20px;
 }
-
+/*.produits-conteneur{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap: 20px;
+}
+*/
 .product-card{
     background: white;
     padding: 15px;
@@ -78,16 +84,16 @@ main{
 }
 
 .product-card button{
-    padding: 10px 15px;
+    padding: 10px 20px;
     border: none;
-    background: #222;
+    background: #ab1212e1;/*couleur de fond modifiee de noire a rouge*/
     color: white;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .product-card button:hover{
-    background: #444;
+    background: #2ccd13;/*couleur de fond modifiee de noire a vert*/
 }
 
 .cart-item{
@@ -115,4 +121,16 @@ main{
         flex-direction: column;
         gap: 10px;
     }
+}
+/* Style du filtre catégorie — à ajouter */
+#categoryFilter {
+    width: 30%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: 1.5px solid #0a584f;
+    background: #79e2e5;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
 }

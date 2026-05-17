@@ -12,9 +12,9 @@ async function fetchProducts() {
 
     try {
 
-        const response = await fetch("https://fakestoreapi.com/products");
+ const response = await fetch("https://fakestoreapi.com/products");
 
-        const products = await response.json();
+ const products = await response.json();
 
  allProducts = products;
 displayProducts(products);
@@ -35,11 +35,10 @@ function displayProducts(products){
         card.classList.add("product-card");
 
         card.innerHTML = `
-            <img src="${product.image}" alt="${product.title}">
-            <h3>${product.title}</h3>
-            <p>${product.description.substring(0, 80)}...</p>
-            <h4>${product.price} €</h4>
-            <button>Ajouter au panier</button>
+  <img src="${product.image}" alt="${product.title}">
+ <h3>${product.title}</h3>
+ <p>${product.description.substring(0, 80)}...</p>
+ <h4>${product.price} €</h4> <button>Ajouter au panier</button>
         `;
 
         const button = card.querySelector("button");
