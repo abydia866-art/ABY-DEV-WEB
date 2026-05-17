@@ -3,6 +3,11 @@ const cartItemsContainer = document.getElementById("cart-items");
 const searchInput = document.getElementById("searchInput");
 const cartCount = document.getElementById("cart-count");
 const totalPrice = document.getElementById("total-price");
+const checkoutBtn = document.getElementById("checkout-btn");
+
+checkoutBtn.addEventListener("click", function () {
+  alert("Votre commande a été validée !");
+});
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 let allProducts = [];
