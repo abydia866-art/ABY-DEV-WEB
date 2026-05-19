@@ -73,14 +73,7 @@ main{
     object-fit: contain;
 }
 #checkout-btn {
-  background-color: black;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-top: 15px;
-  font-size: 16px;
+  display: none;
 }
 
 #checkout-btn:hover {
